@@ -5,12 +5,11 @@
   --clr-span: hsl(210, 14%, 58%);
   --clr-rp: hsl(194, 57%, 95%);
 
-  --fw-paragraph-normal: 400;
-  --fw-span-lighter: 500;
+  --fw-h1-700: 700;
+  --fw-h2-bolder: 700;
   --fw--navbar-bold: 500;
-  --fw-semibold: 400;
-  --fw-bolder: 400;
-  --fw-900: 400;
+  --fw-paragraph-normal: 400;
+  --fw-span-lighter: 400;
 
   --font-primary: "Heebo", sans-serif;
   --font-body: var(--font-primary);
@@ -18,8 +17,10 @@
   --font-paragraph: var(--font-primary);
 
   --fs-paragraph-400: 1rem;
-  --fs-700: 2.75rem;
-  --fs-span-500: 1.25rem;
+  --fs-h1-700: 2.75rem;
+  --fs-h2-700: 1.875rem;
+  --fs-span-400: 1.25rem;
+  --fs-navbar-500: 1.25rem;
 
   --fs-primary-heading: var(--fs-700);
   --fs-span: var(--fs-500);
