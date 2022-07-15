@@ -5,12 +5,18 @@
   --clr-span: hsl(210, 14%, 58%);
   --clr-rp: hsl(194, 57%, 95%);
 
-  --fw-h1-700: 700;
+    --fw-900: 900;
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-400: 400;
+
+
+  /*--fw-h1-700: 700;
   --fw-h2-bolder: 700;
   --fw-h3: 400;
   --fw--navbar-bold: 500;
   --fw-paragraph-normal: 400;
-  --fw-span-lighter: 400;
+  --fw-span-lighter: 400; */
 
   --font-primary: "Heebo", sans-serif;
   --font-body: var(--font-primary);
