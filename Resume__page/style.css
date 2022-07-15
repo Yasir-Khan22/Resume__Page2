@@ -5,9 +5,9 @@
   --clr-span: hsl(210, 14%, 58%);
   --clr-rp: hsl(194, 57%, 95%);
 
-  --fw-lighter: 500;
-  --fw-normal: 400;
-  --fw-bold: 400;
+  --fw-paragraph-normal: 400;
+  --fw-span-lighter: 500;
+  --fw--navbar-bold: 500;
   --fw-semibold: 400;
   --fw-bolder: 400;
   --fw-900: 400;
@@ -17,9 +17,9 @@
   ---font-heading: var(--font-primary);
   --font-paragraph: var(--font-primary);
 
-  --fs-Paragraph-400: 1rem;
+  --fs-paragraph-400: 1rem;
   --fs-700: 2.75rem;
-  --fs-500: 1.25rem;
+  --fs-span-500: 1.25rem;
 
   --fs-primary-heading: var(--fs-700);
   --fs-span: var(--fs-500);
