@@ -108,3 +108,12 @@ header .navbar ul {
   text-decoration: none;
   color: var(--clr-primary);
 }
+.even-columns {
+  border: 2px solid red;
+}
+.even-columns .right {
+  border: 2px solid green;
+}
+.even-columns .left {
+  border: 2px solid pink;
+}
