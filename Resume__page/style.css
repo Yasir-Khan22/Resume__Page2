@@ -91,9 +91,6 @@ svg {
 body {
   background: #fff;
 }
-header {
-  border: 2px solid red;
-}
 header .navbar {
   display: flex;
   align-items: center;
@@ -107,6 +104,7 @@ header .navbar ul {
   margin: 1rem;
 }
 .navbar ul li a {
+  margin-left: 0.5rem;
   text-decoration: none;
   color: var(--clr-primary);
 }
