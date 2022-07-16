@@ -116,4 +116,5 @@ header .navbar ul {
 }
 .even-columns .left {
   border: 2px solid pink;
+  border: 2px solid red;
 }
