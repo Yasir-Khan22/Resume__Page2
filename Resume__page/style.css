@@ -1,7 +1,7 @@
 :root {
-  --clr-primary: hsl(234, 30%, 18%);
-  --clr-secondary: hsl(0, 0%, 88%);
-  --clr-tertiary: hsl(0, 100%, 70%);
+  --clr-primary: hsl(0, 0%, 100%);
+  --clr-secondary: hsl(234, 30%, 18%);
+  --clr-btn: hsl(0, 100%, 70%);
   --clr-span: hsl(210, 14%, 58%);
   --clr-rp: hsl(194, 57%, 95%);
 
