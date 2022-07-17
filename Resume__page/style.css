@@ -91,6 +91,10 @@ svg {
 body {
   background: var(--clr-primary);
 }
+header {
+  border: 2px solid red;
+  margin-bottom: 2rem;
+}
 header .navbar {
   display: flex;
   align-items: center;
@@ -110,7 +114,7 @@ header .navbar ul {
 }
 .even-columns {
   border: 2px solid red;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -137,9 +141,10 @@ header .navbar ul {
   border-radius: 2px;
   margin-top: 0.5rem;
   outline: none;
+  cursor: pointer;
   border: none;
   margin: 1rem auto 1rem;
-  padding: 5px;
+  padding: 8px;
 }
 .container .right {
   border: 2px solid green;
