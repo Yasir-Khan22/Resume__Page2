@@ -92,7 +92,7 @@ body {
   background: var(--clr-primary);
 }
 header {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-bottom: 2rem;
 }
 header .navbar {
@@ -113,12 +113,15 @@ header .navbar ul {
   color: var(--clr-secondary);
 }
 .even-columns {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+}
+.container .right {
+  display: flex;
+  flex-direction: column;
 }
 .container .right h1 {
   font-weight: var(--fw-bold);
@@ -156,4 +159,8 @@ header .navbar ul {
 }
 .container .left img {
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
 }
