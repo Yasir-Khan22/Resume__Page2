@@ -131,17 +131,23 @@ header .navbar ul {
   background: var(--clr-btn);
   color: var(--clr-primary);
   font-weight: var(--fw-semi-bold);
+}
+.container .right .btn {
   font-size: var(--fs-500);
   border-radius: 2px;
   margin-top: 0.5rem;
+  outline: none;
+  border: none;
+  margin: 1rem auto 1rem;
+  padding: 5px;
 }
 .container .right {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   width: 70%;
 }
 
 .container .left {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 .container .left img {
   border-radius: 50%;
