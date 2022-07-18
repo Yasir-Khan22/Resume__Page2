@@ -122,12 +122,33 @@ header .navbar ul {
   align-items: center;
   justify-content: flex-end;
 }
-.even-columns h1 {
+.even-columns .right h1 {
   font-size: var(--fs-primary-heading);
   font-weight: var(--fw-bold);
 }
-.even-columns .right {
+/* .even-columns .right {
   border: 2px solid rgb(3, 92, 83);
+} */
+.even-columns .right p {
+  /* border: 2px solid red; */
+  margin-top: 1.3rem;
+  font-size: var(--fs-600);
+  font-weight: var(--fw-regular);
+  padding: 2px;
+}
+.even-columns .right button {
+  outline: none;
+  border: none;
+  font-size: var(--fs-500);
+  font-weight: var(--fw-semi-bold);
+  margin-top: 1.2rem;
+}
+.even-columns .right .btn {
+  padding: 15px;
+  color: #ffffff;
+  background: var(--clr-btn);
+  border-radius: 3px;
+  cursor: pointer;
 }
 .even-columns .left {
   max-width: 450px;
@@ -137,6 +158,6 @@ header .navbar ul {
 .even-columns .left img {
   border-radius: 50%;
   box-shadow: 10px solid transparent;
-  padding: 15px;
+  padding: 20px;
   margin-left: 10px;
 }
