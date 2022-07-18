@@ -172,18 +172,32 @@ header .navbar ul {
   border: 2px solid red;
 }
 .main .recent-post {
+  width: 80%;
+  margin: 0 auto;
   margin-top: 1rem;
   padding: 1rem;
   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.even-columns2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
 .main .firstDiv {
   height: 170px;
-  width: 240px;
+  /* width: 240px; */
   border: 2px solid red;
+  /* width: 80%;
+  margin: 0 auto; */
 }
 .main .secondDiv {
   height: 170px;
-  width: 240px;
+  /* width: 240px; */
   border: 2px solid red;
+  /* width: 80%;
+  margin: 0 auto; */
 }
