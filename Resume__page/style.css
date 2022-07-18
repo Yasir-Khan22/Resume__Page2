@@ -92,10 +92,6 @@ body {
   background: var(--clr-primary);
   font-family: "Montserrat", sans-serif;
 }
-header {
-  /* border: 2px solid red; */
-  margin-bottom: 2rem;
-}
 header .navbar {
   display: flex;
   align-items: center;
@@ -113,6 +109,10 @@ header .navbar ul {
 .navbar ul li a {
   text-decoration: none;
   color: var(--clr-secondary);
+}
+.hero-section {
+  border: 2px solid red;
+  padding: 3rem;
 }
 .even-columns {
   /* border: 2px solid green; */
