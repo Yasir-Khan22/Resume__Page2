@@ -189,15 +189,15 @@ header .navbar ul {
 }
 .main .firstDiv {
   height: 170px;
-  /* width: 240px; */
+  /* width: 500px; */
   border: 2px solid red;
-  /* width: 80%;
-  margin: 0 auto; */
+  width: inherit;
+  /* margin: 0 auto; */
 }
 .main .secondDiv {
   height: 170px;
-  /* width: 240px; */
+  /* width: 500px; */
   border: 2px solid red;
-  /* width: 80%;
-  margin: 0 auto; */
+  width: inherit;
+  /* margin: 0 auto; */
 }
