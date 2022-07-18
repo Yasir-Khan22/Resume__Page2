@@ -127,8 +127,16 @@ header .navbar ul {
   font-weight: var(--fw-bold);
 }
 .even-columns .right {
-  /* border: 2px solid rgb(3, 92, 83); */
+  border: 2px solid rgb(3, 92, 83);
 }
 .even-columns .left {
-  /* border: 2px solid tomato; */
+  max-width: 450px;
+  width: 100%;
+  border-radius: 50%;
+}
+.even-columns .left img {
+  border-radius: 50%;
+  box-shadow: 10px solid transparent;
+  padding: 15px;
+  margin-left: 10px;
 }
