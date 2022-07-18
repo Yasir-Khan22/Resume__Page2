@@ -114,3 +114,6 @@ header .navbar ul {
   text-decoration: none;
   color: var(--clr-secondary);
 }
+.even-columns {
+  border: 2px solid green;
+}
