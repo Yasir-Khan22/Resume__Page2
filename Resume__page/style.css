@@ -168,21 +168,22 @@ header .navbar ul {
   background: var(--clr-rp);
 }
 .main > div {
-  width: 80%;
   margin: 0 auto;
   border: 2px solid red;
 }
 .main .recent-post {
+  margin-top: 1rem;
+  padding: 1rem;
   border: 1px solid red;
 }
 
 .main .firstDiv {
   height: 170px;
-  padding: 10px;
+  width: 240px;
   border: 2px solid red;
 }
 .main .secondDiv {
   height: 170px;
+  width: 240px;
   border: 2px solid red;
-  padding: 10px;
 }
