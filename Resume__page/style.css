@@ -157,10 +157,10 @@ header .navbar ul {
 }
 
 .container .left {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   margin-left: 1.5rem;
 }
 .container .left img {
   border-radius: 50%;
-  /* border: 2px solid green; */
+  border: 2px solid green;
 }
