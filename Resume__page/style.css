@@ -93,7 +93,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 header {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-bottom: 2rem;
 }
 header .navbar {
@@ -115,19 +115,20 @@ header .navbar ul {
   color: var(--clr-secondary);
 }
 .even-columns {
-  border: 2px solid green;
-  width: 90%;
+  /* border: 2px solid green; */
+  width: 70%;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .even-columns h1 {
   font-size: var(--fs-primary-heading);
   font-weight: var(--fw-bold);
 }
 .even-columns .right {
-  border: 2px solid rgb(3, 92, 83);
+  /* border: 2px solid rgb(3, 92, 83); */
 }
 .even-columns .left {
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
 }
