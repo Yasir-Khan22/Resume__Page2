@@ -117,8 +117,6 @@ header .navbar ul {
   color: var(--clr-secondary);
 }
 .even-columns {
-  /* border: 2px solid red; */
-
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -152,15 +150,12 @@ header .navbar ul {
   padding: 8px;
 }
 .container .right {
-  /* border: 2px solid green; */
-  width: 70%;
+  max-width: 70%;
 }
-
 .container .left {
-  border: 2px solid blue;
   margin-left: 1.5rem;
 }
 .container .left img {
   border-radius: 50%;
-  border: 2px solid green;
+  box-shadow: 2px 2px 2px 1px rgb(237, 247, 250);
 }
