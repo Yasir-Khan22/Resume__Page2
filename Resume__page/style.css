@@ -116,4 +116,18 @@ header .navbar ul {
 }
 .even-columns {
   border: 2px solid green;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.even-columns h1 {
+  font-size: var(--fs-primary-heading);
+  font-weight: var(--fw-bold);
+}
+.even-columns .right {
+  border: 2px solid rgb(3, 92, 83);
+}
+.even-columns .left {
+  border: 2px solid tomato;
 }
