@@ -167,3 +167,13 @@ header .navbar ul {
   height: 350px;
   background: var(--clr-rp);
 }
+.main .recent-post {
+  border: 1px solid red;
+}
+
+.main .firstDiv {
+  height: 450px;
+}
+.main .secondDiv {
+  height: 450px;
+}
