@@ -164,4 +164,6 @@ header .navbar ul {
 
 .main {
   border: 2px solid red;
+  height: 350px;
+  background: var(--clr-rp);
 }
