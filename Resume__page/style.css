@@ -199,10 +199,8 @@ header .navbar ul {
   background: hsl(0, 0%, 100%);
   padding: 15px;
   height: auto;
-  /* width: 500px; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: inherit;
-  /* margin: 0 auto; */
 }
 .main .wrapper .firstDiv h2 {
   font-size: var(--fs-700);
@@ -216,10 +214,8 @@ header .navbar ul {
 .main .secondDiv {
   background: hsl(0, 0%, 100%);
   padding: 15px;
-  /* width: 500px; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: inherit;
-  /* margin: 0 auto; */
 }
 .main .wrapper .secondDiv h2 {
   font-size: var(--fs-700);
