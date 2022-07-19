@@ -181,6 +181,10 @@ header .navbar ul {
   align-items: center;
   justify-content: space-between;
 }
+.main .recent-post p {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-regular);
+}
 .even-columns2 {
   width: 80%;
   margin: 0 auto;
