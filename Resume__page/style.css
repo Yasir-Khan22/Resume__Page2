@@ -196,9 +196,9 @@ header .navbar ul {
   align-items: center;
 }
 .main .firstDiv {
-  height: 170px;
   background: hsl(0, 0%, 100%);
   padding: 15px;
+  height: auto;
   /* width: 500px; */
   border: 2px solid red;
   width: inherit;
@@ -208,8 +208,12 @@ header .navbar ul {
   font-size: var(--fs-700);
   font-weight: var(--fw-bold);
 }
+.main .wrapper .firstDiv .date-desc {
+  padding: 3px;
+  display: flex;
+  align-content: space-between;
+}
 .main .secondDiv {
-  height: 170px;
   background: hsl(0, 0%, 100%);
   padding: 15px;
   /* width: 500px; */
