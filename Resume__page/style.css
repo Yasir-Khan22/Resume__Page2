@@ -225,6 +225,10 @@ header .navbar ul {
 }
 .main .wrapper .even-columns2 .date-desc {
   border: 2px solid red;
+  margin: 0.5rem 0 0.5rem 0;
+  line-height: 26px;
+  font-size: var(--fs-400);
+  font-weight: var(--fs-700);
 }
 
 .main .wrapper .even-columns2 .para {
