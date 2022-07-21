@@ -206,12 +206,19 @@ header .navbar ul {
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
 }
-.main .post-item header {
+.posts .post-item header {
   font-weight: var(--fw-bold);
   padding: 23px;
 }
-.main .post-item header h3 {
+.posts .post-item header h3 {
   font-size: 26px;
   line-height: 38px;
+  color: #21243d;
+  margin-bottom: 14px;
+}
+.posts .post-item .meta {
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-500);
+  line-height: 26px;
   color: #21243d;
 }
