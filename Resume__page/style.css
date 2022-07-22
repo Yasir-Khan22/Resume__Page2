@@ -235,12 +235,12 @@ header .navbar ul {
   color: #21243d;
 }
 .featured-section-inner {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   max-width: 960px;
   margin: 0 auto;
 }
 .featured-section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background: #fff;
   padding: 32px 0;
 }
@@ -248,7 +248,7 @@ header .navbar ul {
 /* FEAUTRED SECTION STYLES */
 
 .featured-section .fs-header h3 {
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
   font-weight: var(--fw-regular);
   font-size: 22px;
   line-height: 60px;
@@ -257,12 +257,16 @@ header .navbar ul {
 }
 
 .fs-list .fs-item {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   gap: 18px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 16px;
+  margin: 31px;
 }
 .fs-list .fs-item-left img {
   border-radius: 6px;
+  width: 246px;
 }
 .fs-list .fs-item-right h2 {
   font-weight: 700;
@@ -274,7 +278,9 @@ header .navbar ul {
 
 .fs-item .item-meta {
   display: flex;
+  text-align: center;
   gap: 26px;
+  /* border: 2px solid red; */
 }
 .item-meta .badge {
   width: 60px;
@@ -285,5 +291,18 @@ header .navbar ul {
   background: #142850;
   border-radius: 16px;
   text-align: center;
-  margin-bottom: 22px;
+}
+.item-meta .category {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+.fs-item .fs-item-right .description {
+  /* border: 2px solid red; */
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
 }
