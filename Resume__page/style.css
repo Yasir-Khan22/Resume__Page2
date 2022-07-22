@@ -307,7 +307,23 @@ header .navbar ul {
   line-height: 24px;
   color: #21243d;
 }
-footer {
+.container {
   border: 2px solid red;
   margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container ul[role="list"] {
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.container ul li {
+  border: 2px solid pink;
+}
+.container ul li a {
+  border: 2px solid turquoise;
 }
