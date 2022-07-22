@@ -108,7 +108,11 @@ header .navbar ul {
 }
 .navbar ul li a {
   text-decoration: none;
-  color: var(--clr-secondary);
+  font-weight: var(--fw-semi-bold);
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: #000000 !important;
 }
 .hero-section {
   /* border: 2px solid red; */
@@ -310,28 +314,30 @@ header .navbar ul {
 .container {
   /* border: 2px solid red; */
   margin-top: 60px;
+  width: 100%;
 }
-.container ul[role="list"] {
+.container ul {
   /* border: 2px solid green; */
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 35px;
 }
-.container ul li {
+.container .li-elements {
   /* border: 2px solid pink; */
-  background: #21243d;
+  margin-bottom: 22px;
 }
 .container ul li a {
   /* border: 2px solid turquoise; */
   color: #fff;
+  /* background: #21243d; */
 }
 .container .para {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container .para {
+.para p {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
