@@ -261,12 +261,13 @@ header .navbar ul {
   display: flex;
   gap: 18px;
   border-bottom: 1px solid #e0e0e0;
-  padding: 16px;
-  margin: 31px;
+  padding-bottom: 16px;
+  margin-bottom: 30px;
 }
 .fs-list .fs-item-left img {
   border-radius: 6px;
-  width: 246px;
+  /* width: 490px;
+  height: 200px; */
 }
 .fs-list .fs-item-right h2 {
   font-weight: 700;
