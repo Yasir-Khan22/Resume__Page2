@@ -310,9 +310,6 @@ header .navbar ul {
 .container {
   border: 2px solid red;
   margin-top: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .container ul[role="list"] {
   border: 2px solid green;
@@ -326,4 +323,9 @@ header .navbar ul {
 }
 .container ul li a {
   border: 2px solid turquoise;
+}
+.container .para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
