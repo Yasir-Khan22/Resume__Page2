@@ -320,9 +320,11 @@ header .navbar ul {
 }
 .container ul li {
   border: 2px solid pink;
+  background: #21243d;
 }
 .container ul li a {
   border: 2px solid turquoise;
+  color: #fff;
 }
 .container .para {
   display: flex;
