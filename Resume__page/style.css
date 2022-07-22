@@ -308,26 +308,35 @@ header .navbar ul {
   color: #21243d;
 }
 .container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 60px;
 }
 .container ul[role="list"] {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 35px;
 }
 .container ul li {
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
   background: #21243d;
 }
 .container ul li a {
-  border: 2px solid turquoise;
+  /* border: 2px solid turquoise; */
   color: #fff;
 }
 .container .para {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.container .para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #21243d;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
