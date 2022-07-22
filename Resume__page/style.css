@@ -244,3 +244,29 @@ header .navbar ul {
   background: #fff;
   padding: 32px 0;
 }
+
+/* FEAUTRED SECTION STYLES */
+
+.featured-section .fs-header h3 {
+  border: 2px solid violet;
+  font-weight: var(--fw-regular);
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 22px;
+}
+
+.fs-list .fs-item {
+  border: 2px solid yellow;
+  display: flex;
+  gap: 18px;
+}
+.fs-list .fs-item-left img {
+  border-radius: 6px;
+}
+.fs-list .fs-item-right h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+}
