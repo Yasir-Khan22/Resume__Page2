@@ -99,15 +99,16 @@ header .navbar {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin: 0 0.5rem 0 0.5rem;
+  padding-right: 60px;
 }
 header .navbar .list {
   display: flex;
+  gap: 35px;
 }
 .navbar .list li {
   list-style: none;
   font-size: var(--fs-500);
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
 }
 .navbar .list li a {
   text-decoration: none;
