@@ -94,6 +94,7 @@ body {
 }
 header .navbar {
   border: 1px solid red;
+  background: #fff;
   height: 50px;
   display: flex;
   align-items: center;
