@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+profile_user.jpg
+images/profile_user.jpg
+user.png
