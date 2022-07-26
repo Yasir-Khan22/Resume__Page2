@@ -93,7 +93,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 header .navbar {
-  border: 1px solid red;
   background: #fff;
   height: 50px;
   display: flex;
@@ -149,21 +148,18 @@ header .navbar .list {
   color: #21243d;
 }
 .hero-section-inner .left button {
-  outline: none;
-  border: none;
-  font-size: var(--fs-500);
-  font-weight: var(--fw-semi-bold);
   margin-top: 2.375rem;
-}
-.hero-section-inner .left .btn {
-  padding: 15px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
   background: var(--clr-btn);
-  border-radius: 3px;
+  border-radius: 2px;
   cursor: pointer;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 29px;
+  font-size: 1.25rem;
   color: #ffffff;
+  line-height: 29px;
+  max-width: fit-content;
 }
 .hero-section-inner .right {
   /* max-width: 450px;
