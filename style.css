@@ -121,15 +121,17 @@ header .navbar .list {
 .hero-section {
   padding: 3rem;
 }
-.even-columns {
+.hero-section-inner {
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 120px;
+  padding: 130px 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.even-columns .right h1 {
+.hero-section-inner .left {
+}
+.hero-section-inner .left h1 {
   font-size: var(--fs-primary-heading);
   font-weight: var(--fw-bold);
   font-size: 44px;
@@ -137,7 +139,8 @@ header .navbar .list {
   color: #21243d;
 }
 
-.even-columns .right p {
+.hero-section-inner .left p {
+  max-width: 497px;
   margin-top: 1.3rem;
   font-size: var(--fs-600);
   font-weight: var(--fw-regular);
@@ -147,14 +150,14 @@ header .navbar .list {
   line-height: 24px;
   color: #21243d;
 }
-.even-columns .right button {
+.hero-section-inner .left button {
   outline: none;
   border: none;
   font-size: var(--fs-500);
   font-weight: var(--fw-semi-bold);
   margin-top: 1.2rem;
 }
-.even-columns .right .btn {
+.hero-section-inner .left .btn {
   padding: 15px;
   background: var(--clr-btn);
   border-radius: 3px;
@@ -164,12 +167,17 @@ header .navbar .list {
   line-height: 29px;
   color: #ffffff;
 }
-.even-columns .left {
-  max-width: 450px;
+.hero-section-inner .right {
+  /* max-width: 450px;
   width: 100%;
-  border-radius: 50%;
+  border-radius: 50%; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.even-columns .left img {
+.hero-section-inner .right img {
+  flex: 1;
   border-radius: 50%;
   box-shadow: 10px solid transparent;
   padding: 20px;
