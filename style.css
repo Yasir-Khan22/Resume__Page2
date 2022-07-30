@@ -138,6 +138,7 @@ header .navbar .list {
 }
 
 .hero-section-inner .left h1 {
+  font-size: clamp(3rem, 1rem + 10vw, 2rem);
   font-size: var(--fs-primary-heading);
   font-weight: var(--fw-bold);
   font-size: 44px;
@@ -385,9 +386,9 @@ header .navbar .list {
     margin: 0 auto;
   }
 
-  .hero-section .left h1 {
-    font-size: clamp(3rem, 1rem + 10vw, 2rem);
-  }
+  /* .hero-section .left h1 {
+    
+  } */
 
   .hero-section-inner .right {
     margin-bottom: 35px;
@@ -404,6 +405,11 @@ header .navbar .list {
   .posts-section-inner .post-header p {
     margin: 0 auto;
     margin-bottom: 1rem;
+  }
+
+  .posts-section .post-header h3 {
+    margin: 0 auto;
+
   }
 
   .even-columns2 {
