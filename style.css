@@ -416,6 +416,22 @@ header .navbar .list {
     text-align: center;
   }
 
+  .featured-section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .featured-section-inner {
+    width: 80%;
+  }
+
+  .featured-section-inner .fs-item {
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
