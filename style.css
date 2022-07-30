@@ -400,6 +400,13 @@ header .navbar .list {
     margin: 0 auto;
     margin-bottom: 1rem;
   }
+
+  .even-columns2 {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
