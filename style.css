@@ -391,6 +391,15 @@ header .navbar .list {
   .hero-section .left {
     text-align: center;
   }
+
+  .posts-section-inner .post-header a {
+    display: none;
+  }
+
+  .posts-section-inner .post-header p {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
